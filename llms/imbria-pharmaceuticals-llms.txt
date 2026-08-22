@@ -1,0 +1,57 @@
+# Imbria Pharmaceuticals
+
+> Private, clinical-stage biopharmaceutical company (Boston area) developing novel cardiovascular
+> therapies that target cardiac energy metabolism. Lead candidate: ninerafaxstat, a first-in-class
+> partial fatty acid oxidation (pFOX) inhibitor.
+
+Imbria Pharmaceuticals is a therapeutics developer, not a software vendor.
+
+**There is no public API.** As of 2026-08-22, Imbria publishes no API, no developer portal, no
+documentation or API reference, no SDK or client library, no OpenAPI/AsyncAPI/GraphQL contract,
+no MCP server, no A2A agent card, and no `/.well-known/` documents. `imbria.com` is a WordPress
+site; the only machine-readable surface it exposes is the WordPress core REST API at
+`https://imbria.com/wp-json/`, which is default CMS infrastructure shipped by WordPress rather
+than an API product Imbria designed, documented or supports. It is not treated as a developer
+program here and no contract is recorded for it.
+
+## Science and pipeline
+
+- [Science & Pipeline](https://imbria.com/science-pipeline/): overview of Imbria's cardiac energy
+  metabolism approach.
+- [Ninerafaxstat](https://imbria.com/science-pipeline/ninerafaxstat/): partial fatty acid
+  oxidation (pFOX) inhibitor that shifts myocardial substrate utilization toward glucose
+  oxidation, generating more ATP per unit of oxygen consumed and improving cardiac metabolic
+  efficiency without affecting heart rate, rhythm, ejection fraction or blood pressure.
+- [Non-obstructive hypertrophic cardiomyopathy (nHCM)](https://imbria.com/science-pipeline/nhcm/):
+  lead indication. Ninerafaxstat holds FDA Orphan Drug Designation for symptomatic nHCM and is in
+  the global FORTITUDE-HCM Phase 2b trial (NCT07023614). No approved treatments exist today.
+- [HFpEF](https://imbria.com/science-pipeline/hfpef/): heart failure with preserved ejection
+  fraction; a cardiometabolic HFpEF Phase 2b is planned.
+- [Clinical Trials](https://imbria.com/science-pipeline/clinical-trials/) and
+  [Expanded Access Policy](https://imbria.com/science-pipeline/clinical-trials/expanded-access/).
+- [Publications & Presentations](https://imbria.com/science-pipeline/publications-presentations/).
+
+## Company
+
+- [Home](https://imbria.com/)
+- [Our Story](https://imbria.com/our-story/) — mission, team, board.
+- [Investors](https://imbria.com/our-story/investors/) — RA Capital, SV Health Investors, Deep
+  Track Capital, Catalio Capital Management, AN Ventures, Cytokinetics.
+- [Careers](https://imbria.com/careers/)
+- [Contact](https://imbria.com/contact/)
+
+## News
+
+- [Press Releases](https://imbria.com/investors-media/press-releases/)
+- [RSS feed](https://imbria.com/feed/)
+
+## Legal
+
+- [Terms of Use](https://imbria.com/terms-of-use/)
+- [Privacy Policy](https://imbria.com/privacy-policy/)
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/imbria/)
+- [API Evangelist profile](https://apis.io/provider/imbria-pharmaceuticals/) — independent
+  third-party profile; not operated by Imbria Pharmaceuticals.

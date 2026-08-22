@@ -1,17 +1,35 @@
 aid: imbria-pharmaceuticals
 name: Imbria Pharmaceuticals
-description: 'Imbria Pharmaceuticals is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Imbria Pharmaceuticals is a private, clinical-stage biopharmaceutical company based in the Boston
+  area that is developing novel cardiovascular therapies targeting cardiac energy metabolism. Its
+  lead candidate, ninerafaxstat, is a first-in-class partial fatty acid oxidation (pFOX) inhibitor
+  designed to shift myocardial substrate utilization toward glucose oxidation, generating more ATP
+  per unit of oxygen consumed and improving cardiac metabolic efficiency without affecting heart
+  rate, rhythm, ejection fraction or blood pressure. Ninerafaxstat is in the global FORTITUDE-HCM
+  Phase 2b trial (NCT07023614) for symptomatic non-obstructive hypertrophic cardiomyopathy (nHCM),
+  which has no approved treatments, and holds FDA Orphan Drug Designation for that indication; a
+  Phase 2b in cardiometabolic HFpEF is planned. The company is backed by RA Capital, SV Health
+  Investors, Deep Track Capital, Catalio Capital Management, AN Ventures and Cytokinetics. Imbria
+  is a therapeutics developer, not a software vendor, and publishes no public API, developer
+  portal, SDK or machine-readable API contract.
+image: https://imbria.com/wp-content/uploads/2025/09/imbria_logo-1.svg
 url: https://raw.githubusercontent.com/api-evangelist/imbria-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-22'
 modified: '2026-08-22'
 tags:
 - Company
+- Pharmaceuticals
+- Biotechnology
+- Life Sciences
+- Cardiovascular
+- Clinical Trials
+- Drug Development
+- Healthcare
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,51 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/imbria-pharmaceuticals-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://imbria.com/
+- type: About
+  url: https://imbria.com/our-story/
+- type: Blog
+  url: https://imbria.com/investors-media/press-releases/
+- type: BlogRSS
+  url: https://imbria.com/feed/
+- type: Support
+  url: https://imbria.com/contact/
+- type: TermsOfService
+  url: https://imbria.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://imbria.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/imbria/
+- type: LLMsTxt
+  url: llms/imbria-pharmaceuticals-llms.txt
+x-enrichment:
+  date: '2026-08-22'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Imbria Pharmaceuticals is a private clinical-stage biopharma developing ninerafaxstat for
+    cardiovascular disease; imbria.com is a WordPress marketing site whose only machine-readable
+    surface is the default WordPress core REST API at /wp-json/, and every developer-program path
+    probed (/developers, /docs, /api, /openapi.json, /graphql, /llms.txt, /apis.json and eight
+    /.well-known/ documents) returned the site's standard 404.
+  evidence:
+  - url: https://imbria.com/developers
+    status: 404
+  - url: https://imbria.com/openapi.json
+    status: 404
+  - url: https://imbria.com/.well-known/api-catalog
+    status: 404
+  - url: https://imbria.com/.well-known/agent-card.json
+    status: 404
+  - url: https://imbria.com/wp-json
+    status: 200
+  - url: https://github.com/imbria
+    status: 404
+  checked: '2026-08-22'

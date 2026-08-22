@@ -1,0 +1,35 @@
+generated: '2026-08-22'
+method: probed
+source: live HTTPS probes of https://imbria.com/.well-known/* (browser User-Agent)
+note: >-
+  Every probed path returned HTTP 404 with the site's standard WordPress 404 HTML page. No
+  .well-known document of any kind is served, so NO WellKnown or SecurityTxt pointer is emitted
+  in apis.yml — this file records a verified absence, not a presence. imbria.com is the company's
+  only host; Imbria Pharmaceuticals publishes no API host, developer portal or docs host.
+hosts:
+- host: imbria.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
