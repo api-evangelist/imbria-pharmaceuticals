@@ -13,6 +13,17 @@ description: >-
   Investors, Deep Track Capital, Catalio Capital Management, AN Ventures and Cytokinetics. Imbria
   is a therapeutics developer, not a software vendor, and publishes no public API, developer
   portal, SDK or machine-readable API contract.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://imbria.com/wp-content/uploads/2025/09/imbria_logo-1.svg
 url: https://raw.githubusercontent.com/api-evangelist/imbria-pharmaceuticals/refs/heads/main/apis.yml
 x-type: company
